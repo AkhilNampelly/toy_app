@@ -1,7 +1,7 @@
-bundle install --without production
-git add -A
-git commit -m "For toy_app"
-git push_origin master
+sudo bundle install --without production
+sudo git add -A
+sudo git commit -m "For toy_app"
+sudo git push_origin master
 AkhilNampelly
 Devathon@123
-git push heroku master
+sudo git push heroku master
