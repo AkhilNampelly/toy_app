@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
-def hello
-  render html :"Hello Akhil Nampelly."
+  def hello
+    render html:"Hello Akhil Nampelly."
+  end
 end
